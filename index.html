@@ -93,40 +93,37 @@
                 </h1>
 
                 <!-- Mobile Only Image: サイズを縮小 (max-w-xs = 320px程度) -->
-                <div class="lg:hidden mb-10 px-4 flex justify-center">
-                    <div class="img-container aspect-[4/5] w-64 rounded-[2rem] shadow-2xl bg-orange-50 border-4 border-white rotate-1">
-                        <div style="display: flex; align-items: center; justify-content: center; background-color: transparent;">
-                            <img src="velty.png" alt="ベルティのメインビジュアル（イメージ：絵本）" style="max-width: 100%; height: auto;">
-                        </div>   
-                    </div>
-                </div>
-
-                <p class="text-xl lg:text-2xl font-hand text-slate-600 mb-10 leading-relaxed">
-                    自分と友達の「こころ」を知る、<br>はじめての多様性を感じる絵本
-                </p>
-                
-                <div class="bg-white p-8 rounded-2xl shadow-xl border-l-8 border-orange-500 transform transition hover:scale-[1.01] inline-block lg:w-full max-w-2xl">
-                    <p class="text-2xl lg:text-3xl font-hand font-bold text-slate-800 leading-relaxed text-center lg:text-left">
-                        「弱さ」を受け入れたとき、<br>
-                        「強さ」はもっと輝く。
-                    </p>
+<div class="lg:hidden mb-10 px-4 flex justify-center">
+                <div class="img-container aspect-[4/5] w-64 rounded-[2rem] shadow-2xl bg-orange-50 border-4 border-white rotate-1 overflow-hidden">
+                    <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background-color: transparent;">
+                        <img src="velty.png" alt="ベルティのメインビジュアル（イメージ：絵本）" style="max-width: 100%; height: auto;">
+                    </div>   
                 </div>
             </div>
 
-            <!-- Right: PC Only Image -->
-            <!-- サイズを縮小 (max-w-sm = 384px程度) -->
-            <div class="hidden lg:flex justify-center relative px-4 lg:px-0">
-                <div class="img-container aspect-[4/5] w-80 rounded-[2.5rem] shadow-2xl bg-orange-50 border-8 border-white rotate-2 hover:rotate-0 transition duration-700 relative z-10">
-                        <div style="display: flex; align-items: center; justify-content: center; background-color: transparent;">
-                            <img src="velty.png" alt="ベルティのメインビジュアル（イメージ：絵本）" style="max-width: 100%; height: auto;">
-                        </div>   
-                </div>
-                <!-- Decorative Circle -->
-                <div class="absolute -z-10 top-1/4 right-10 w-64 h-64 bg-orange-200 rounded-full mix-blend-multiply filter blur-3xl opacity-40"></div>
-                <div class="absolute -z-10 bottom-0 left-10 w-64 h-64 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-40"></div>
+            <p class="text-xl lg:text-2xl font-hand text-slate-600 mb-10 leading-relaxed">
+                自分と友達の「こころ」を知る、<br>はじめての多様性を感じる絵本
+            </p>
+             
+            <div class="bg-white p-8 rounded-2xl shadow-xl border-l-8 border-orange-500 transform transition hover:scale-[1.01] inline-block lg:w-full max-w-2xl">
+                <p class="text-2xl lg:text-3xl font-hand font-bold text-slate-800 leading-relaxed text-center lg:text-left">
+                    「弱さ」を受け入れたとき、<br>
+                    「強さ」はもっと輝く。
+                </p>
             </div>
         </div>
-    </section>
+
+        <div class="hidden lg:flex justify-center relative px-4 lg:px-0">
+            <div class="img-container aspect-[4/5] w-80 rounded-[2.5rem] shadow-2xl bg-orange-50 border-8 border-white rotate-2 hover:rotate-0 transition duration-700 relative z-10 overflow-hidden">
+                    <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background-color: transparent;">
+                        <img src="velty.png" alt="ベルティのメインビジュアル（イメージ：絵本）" style="max-width: 100%; height: auto;">
+                    </div>   
+            </div>
+            <div class="absolute -z-10 top-1/4 right-10 w-64 h-64 bg-orange-200 rounded-full mix-blend-multiply filter blur-3xl opacity-40"></div>
+            <div class="absolute -z-10 bottom-0 left-10 w-64 h-64 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-40"></div>
+        </div>
+    </div>
+</section>
 
     <!-- Editor's Note -->
     <section id="editors-note" class="py-32 bg-slate-900 text-white scroll-section">
